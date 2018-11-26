@@ -28,6 +28,7 @@ dependencies {
    - implement set and get for all fields
    - add @TableName annotation for class header
    - add @ColumnDefinition annotation for fields header
+   
 2. You can get, add, update or remove objects as this examples:
    - **get all objects:** List\<CustomObject\> objects = OrmDb.getInstance(context).<CustomObject>getOrmObj(CustomObject.class, null)
    - **get specific objects:** List\<CustomObject\> objects = OrmDb.getInstance(context).<CustomObject>getOrmObj(CustomObject.class, "column_name='some value'")
